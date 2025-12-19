@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Контакты — ООО «Логос»</title>
+  <meta name="description" content="Контакты ООО «Логос» (Челябинск). Обучение дистанционно."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M7 17V9.8c0-.6.3-1.2.9-1.5L12 6l4.1 2.3c.6.3.9.9.9 1.5V17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <path d="M9.5 17v-4.5h5V17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <strong>Логос</strong>
+      <span class="small">ООО · дистанционно</span>
+    </a>
+
+    <a class="link" href="programs.html">Программы</a>
+    <a class="link" href="contacts.html">Контакты</a>
+    <a class="link" href="svedeniya.html">Сведения</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Контакты</h1>
+    <p>ООО «Логос» · г. Челябинск · обучение только дистанционно.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Связаться</h2>
+      <p class="small">
+        📧 Email: <b>logos.dpo@gmail.com</b><br>
+        📞 Телефон: <b>+7 ___ ___-__-__</b><br>
+        🕘 Время работы: <b>____</b><br>
+      </p>
+      <hr class="hr">
+      <p class="small">
+        Быстрое сообщение (пока без отправки — просто заглушка, чтобы было красиво):
+      </p>
+
+      <form onsubmit="alert('Готово! Пока без отправки. Если хочешь — подключим отправку на почту.'); return false;">
+        <div class="form-row">
+          <input class="input" required placeholder="Ваше имя">
+          <input class="input" required placeholder="Телефон">
+        </div>
+        <div style="margin-top:12px">
+          <input class="input" placeholder="Email (необязательно)">
+        </div>
+        <div style="margin-top:12px">
+          <textarea rows="5" class="input" placeholder="Сообщение (какая программа интересует?)"></textarea>
+        </div>
+        <div style="margin-top:12px">
+          <button class="btn primary" type="submit" style="cursor:pointer">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 12l16-8-6 16-2.5-7.5L4 12z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Отправить
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Реквизиты (заглушка)</h2>
+      <p class="small">
+        Полное наименование: ООО «Логос»<br>
+        Город: Челябинск<br>
+        Адрес: ____<br>
+        ИНН/ОГРН: ____<br>
+      </p>
+      <p class="mini">Если хочешь — сделаем отдельную страницу «Реквизиты».</p>
+    </div>
+  </section>
+
+  <div class="footer small"><a href="index.html">← На главную</a></div>
+</main>
+</body>
+</html>
