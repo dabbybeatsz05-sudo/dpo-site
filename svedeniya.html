@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Сведения — ООО «Логос»</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo-dot"></span><strong>Логос</strong></a>
+    <a href="programs.html">Программы</a>
+    <a href="documents.html">Образцы документов</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="svedeniya.html">Сведения</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Сведения</h1>
+    <p class="small">Основная информация об организации и контакты.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Реквизиты</h2>
+      <p class="small">
+        Наименование: ООО «Логос»<br>
+        ОГРН: 1257400031382<br>
+        ИНН: 7449159286<br>
+        Адрес: 456617, Челябинская область, Копейский городской округ, г. Копейск, ул. Лихачева, д. 6
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Контакты</h2>
+      <p class="small">
+        Телефон: <a href="tel:+789128022127">8 (912) 802-21-27</a><br>
+        Email: <a href="mailto:logos.office@mail.ru">logos.office@mail.ru</a>
+      </p>
+      <hr class="hr">
+      <p class="small">Формат обучения: дистанционный.</p>
+    </div>
+
+    <div class="card">
+      <h2>Документы</h2>
+      <p class="small">
+        Образцы документов размещены в разделе
+        <a href="documents.html"><strong>«Образцы документов»</strong></a>.
+      </p>
+    </div>
+  </section>
+
+  <div class="footer small">
+    ООО «Логос» · © <span id="y"></span>
+  </div>
+</main>
+
+<script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
