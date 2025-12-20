@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Образцы документов — ООО «Логос»</title>
+  <meta name="description" content="Образцы документов ООО «Логос»: примеры оформления и шаблоны."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Логос"/>
+      <strong>Логос</strong>
+    </a>
+
+    <a class="link" href="programs.html">Программы</a>
+    <a class="link" href="documents.html">Образцы документов</a>
+    <a class="link" href="contacts.html">Связь</a>
+    <a class="link" href="svedeniya.html">Сведения</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Образцы документов</h1>
+    <p class="small">Загрузите изображения документов в репозиторий и укажите их имена (пример: doc1.jpg).</p>
+  </section>
+
+  <div class="docs">
+    <div class="doc">
+      <img src="doc1.jpg" alt="Образец документа 1">
+      <div class="p">
+        <strong>Образец №1</strong>
+        <div class="small">Замените картинку на нужную (doc1.jpg).</div>
+      </div>
+    </div>
+
+    <div class="doc">
+      <img src="doc2.jpg" alt="Образец документа 2">
+      <div class="p">
+        <strong>Образец №2</strong>
+        <div class="small">Замените картинку на нужную (doc2.jpg).</div>
+      </div>
+    </div>
+
+    <div class="doc">
+      <img src="doc3.jpg" alt="Образец документа 3">
+      <div class="p">
+        <strong>Образец №3</strong>
+        <div class="small">Замените картинку на нужную (doc3.jpg).</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer small">
+    © <span id="y"></span> ООО «Логос»
+  </div>
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

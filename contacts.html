@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Связь — ООО «Логос»</title>
+  <meta name="description" content="Связь с ООО «Логос»: телефон, email, адрес. Онлайн-обучение."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Логос"/>
+      <strong>Логос</strong>
+    </a>
+
+    <a class="link" href="programs.html">Программы</a>
+    <a class="link" href="documents.html">Образцы документов</a>
+    <a class="link" href="contacts.html">Связь</a>
+    <a class="link" href="svedeniya.html">Сведения</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Связь</h1>
+    <p class="small">Напишите нам — мы ответим и подскажем по программе обучения.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <div class="section-title"><span class="icon">📞</span><strong>Контакты</strong></div>
+      <p class="small">
+        Телефон: <strong>8 (912) 802-21-27</strong><br>
+        Email: <strong>logos.office@mail.ru</strong><br>
+      </p>
+      <div class="hr"></div>
+      <p class="small">
+        Адрес: 456617, Челябинская область, Копейский городской округ, г. Копейск, ул. Лихачева, д. 6
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="section-title"><span class="icon">✉️</span><strong>Быстрое сообщение</strong></div>
+      <p class="small">Заполните форму — откроется письмо, которое можно сразу отправить на нашу почту.</p>
+
+      <form action="mailto:logos.office@mail.ru" method="post" enctype="text/plain">
+        <label class="small">ФИО</label>
+        <input name="ФИО" required placeholder="Например: Иванов Иван"/>
+
+        <div style="height:10px"></div>
+
+        <label class="small">Телефон</label>
+        <input name="Телефон" required placeholder="Например: 8 9xx xxx-xx-xx"/>
+
+        <div style="height:10px"></div>
+
+        <label class="small">Тема</label>
+        <input name="Тема" placeholder="Например: Запись на программу 44-ФЗ"/>
+
+        <div style="height:10px"></div>
+
+        <label class="small">Сообщение</label>
+        <textarea name="Сообщение" placeholder="Коротко опишите запрос"></textarea>
+
+        <div class="btns">
+          <button class="btn primary" type="submit">Отправить на почту</button>
+          <a class="btn" href="programs.html">К программам</a>
+        </div>
+
+        <div class="note small" style="margin-top:12px">
+          Если при нажатии не открывается почта: это значит, что на устройстве не настроен почтовый клиент/почта по умолчанию.
+          Тогда напишите нам напрямую: <strong>logos.office@mail.ru</strong>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="footer small">
+    © <span id="y"></span> ООО «Логос»
+  </div>
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
